@@ -39,11 +39,11 @@ Unicorn Tears
     
     
     """)
-   listofmenu={"Wings","Cookies" ,"Spring Rolls","Salmon","Steak","Meat Tornado","A Literal Garden","Ice Cream","Cake","Pie" , " Coffee", "Tea","Unicorn Tears"}
+   listofmenu={"Wings","Cookies" ,"Spring Rolls","Salmon","Steak","Meat Tornado","A Literal Garden","Ice Cream","Cake","Pie" , "Coffee", "Tea","Unicorn Tears"}
    order =""
    list = []
    while order !="quit":
-        order=input()
+        order=input(">")
         if order=="quit":
             break
         if order not in listofmenu:
